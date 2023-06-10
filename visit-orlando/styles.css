@@ -1,0 +1,62 @@
+/**
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 5px;
+    text-align: center;
+   
+}
+
+.intro {
+    background-image: url("images/orlando1.png");
+    background-size: cover;
+    height: 300px;
+    padding-top: 2px;
+    color: white;
+    text-shadow: 0 0 5px black
+}
+
+#disney, #universal, #seaworld {
+    border-radius: 150%;
+    height: 100px;
+    width: 100px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-wrap {
+    background-color: #f1faee;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.end {
+    background-color: #a8dadc;
+    display: flex;
+    justify-content: space-around;
+    height: 220px;
+    width: 450px;
+    margin: 40px auto;
+    border-bottom: 5px solid #457b9d;
+    border-radius: 5px;
+}
+
+.end-content-wrapper{
+    width: 250px;
+}
+
+#mickey {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 200px;
+    width: 175px;
+}
